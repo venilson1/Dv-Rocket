@@ -2,4 +2,4 @@ Principal => 15202d
 Secundaria e Botão-> FE31FD
 neon => FFBFB7
 letras => D6F6DD
-ltras Destaques => 880D1E
+letras Destaques => 880D1E

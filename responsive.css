@@ -1,0 +1,82 @@
+@media (max-width: 600px) {
+  .logo img {
+    height: 54px;
+  }
+
+  .banner_main {
+    background-image: none;
+  }
+
+  .build_box{
+    text-align: center;
+  }
+  .build_box h1 {
+    font-size: 50px;
+    line-height: 40px;
+    padding-bottom: 10px;
+  }
+
+  .build_box .btn-budget{
+    font-size: 16px;
+    padding: 16px ;
+    max-width: 278px;
+    color: #D6F6DD;
+  }
+}
+
+@media only screen and (min-width: 601px) and  (max-width: 767px){
+  .logo img {
+    height: 56px;
+  }
+  .banner_main {
+    background-image: none;
+  }
+  .build_box{
+    text-align: center;
+  }
+
+  .build_box h1 {
+    font-size: 80px;
+    line-height: 70px;
+    padding-bottom: 10px;
+  }
+
+}
+
+
+
+@media only screen and (min-width: 768px) and  (max-width: 992px){
+  .logo img {
+    height: 52px;
+  }
+
+  .build_box h1 {
+    font-size: 50px;
+    line-height: 40px;
+    padding-bottom: 10px;
+  }
+
+  .banner_main {
+    background-position: 42vw center;
+    background-size: 90vh;
+  }
+
+  .build_box .btn-budget{
+    font-size: 14px;
+    padding: 14px ;
+  }
+}
+
+
+@media only screen and (min-width: 993px) and  (max-width: 1085px){
+  .banner_main {
+    background-position: 42vw center;
+    background-size: 110vh;
+  }
+
+  .build_box h1 {
+    font-size: 80px;
+    line-height: 70px;
+    padding-bottom: 16px;
+  }
+}

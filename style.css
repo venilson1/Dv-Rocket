@@ -10,6 +10,17 @@ body{
   background: #15202d;
 }
 
+ul, li, ol {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  outline: none !important;
+}
+
 .loader_bg {
   position: fixed;
   z-index: 9999999;
@@ -32,6 +43,24 @@ body{
 .loader img {
   width: 280px;
 }
+
+/* personalizar a barra em geral, aqui estou definindo 10px de largura para a barra vertical
+e 10px de altura para a barra horizontal */
+::-webkit-scrollbar {
+  width:2px;
+  height: 2px;
+  }
+   
+  /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
+  ::-webkit-scrollbar-track {
+  background:#333;
+  }
+   
+  /* aqui é a alça da barra, que demonstra a altura que você está na página
+  estou colocando uma cor azul clara nela*/
+  ::-webkit-scrollbar-thumb {
+  background: #FE31FD;
+  }
 
 .logo img {
   height: 64px;
@@ -58,7 +87,13 @@ body{
   line-height: 20px;
   font-weight: 500;
   text-transform: uppercase;
-  
+  transition-duration: 1s;
+}
+
+.navigation.navbar-dark .navbar-nav .nav-link:hover{
+  color: #FE31FD;
+  transform:scale(1.1);
+  transition-duration: 0.1s;
 }
 
 .banner_main {
@@ -109,5 +144,25 @@ body{
 .build_box .btn-budget:hover {
   background: #00aeec;
   box-shadow: 5px 10px 50px #00aeec;
+}
+
+.social-icon{
+  display: flex;
+  align-items: center;
+}
+
+
+.social-icon i{
+  color: #D6F6DD;
+  padding: 20px 10px;
+  transition-duration: 1s;
+  box-sizing: border-box;
+
+}
+
+i:hover{
+  color: #FE31FD;
+  transform:scale(2.0);
+  transition-duration: 0.5s;
 }
 
