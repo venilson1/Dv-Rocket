@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
 *, *::after, *::before {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body{
+  background: #15202d;
 }
 
 .loader_bg {
@@ -33,23 +39,75 @@
   top: 0;
 }
 
-.navigation{
+.navigation {
   text-transform: uppercase;
   font-size: 16px;
   line-height: 20px;
   font-weight: 500;
+  box-shadow: 1px -50px 100px #FFBFB7;
 }
 
-.bg-black{
+.bg-black {
   background: #020002;
 }
 
-.navigation.navbar-dark 
-.navbar-nav .nav-link {
+.navigation.navbar-dark .navbar-nav .nav-link {
   padding: 15px 25px;
   color: #D6F6DD;
   font-size: 16px;
   line-height: 20px;
   font-weight: 500;
   text-transform: uppercase;
+  
 }
+
+.banner_main {
+  height: 90vh;
+  background-image: url(images/undraw_web_devices_ad58.svg);
+  background-position: 48vw center;
+  background-size: 110vh;
+  background-repeat: no-repeat;
+}
+
+.build_box {
+  text-align: left;
+  padding-top: 8%;
+  padding-left: 8%;
+  font-family: 'Cabin', sans-serif;
+}
+
+.build_box h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: #D6F6DD;
+  line-height: 90px;
+  padding-bottom: 20px;
+  display: block;
+  text-shadow: 2px 2px 24px #fff;
+}
+
+.build_box p {
+  color: #D6F6DD;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+  margin-bottom: 55px;
+}
+
+.build_box .btn-budget{
+  background-color: #FE31FD;
+  font-size: 20px;
+  padding: 16px ;
+  text-transform: uppercase;
+  max-width: 278px;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 600;
+  color: #D6F6DD;
+  box-shadow: 5px 10px 50px #FFBFB7;
+}
+
+.build_box .btn-budget:hover {
+  background: #00aeec;
+  box-shadow: 5px 10px 50px #00aeec;
+}
+
