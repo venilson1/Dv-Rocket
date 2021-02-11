@@ -9,6 +9,8 @@
 
   .build_box{
     text-align: center;
+    display: block;
+    width: 90vw;
   }
   .build_box h1 {
     font-size: 50px;
@@ -33,6 +35,8 @@
   }
   .build_box{
     text-align: center;
+    display: block;
+    width: 90vw;
   }
 
   .build_box h1 {
@@ -54,6 +58,8 @@
     font-size: 50px;
     line-height: 40px;
     padding-bottom: 10px;
+    display: block;
+    width: 90vw;
   }
 
   .banner_main {
