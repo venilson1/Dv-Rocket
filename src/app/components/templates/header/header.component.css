@@ -37,11 +37,19 @@
 
 .dropdown-black button:hover{
   color: var(--tertiary-color);
+  border: none;
 }
 
 .dropdown:hover>.dropdown-menu {
   display: block;
   color: var(--tertiary-color);
+}
+
+.dropdown-item{
+  background: none;
+  border: none;
+  font-weight: 600;
+  padding: 1vh;
 }
 
 .dropdown-item:hover{

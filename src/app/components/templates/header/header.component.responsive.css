@@ -13,8 +13,8 @@
     width: 90vw;
   }
   .build_box h1 {
-    font-size: 50px;
-    line-height: 40px;
+    font-size: 70px;
+    line-height: 80px;
     padding-bottom: 10px;
   }
 
@@ -24,6 +24,12 @@
     max-width: 278px;
     color: #D6F6DD;
   }
+
+  .social-icon{
+    margin-left: 20px;
+  }
+
+
 }
 
 @media only screen and (min-width: 601px) and  (max-width: 767px){
@@ -43,6 +49,10 @@
     font-size: 80px;
     line-height: 70px;
     padding-bottom: 10px;
+  }
+
+  .social-icon{
+    margin-left: 20px;
   }
 
 }
@@ -70,6 +80,10 @@
   .build_box .btn-budget{
     font-size: 14px;
     padding: 14px ;
+  }
+
+  .social-icon{
+    margin-left: 20px;
   }
 }
 
