@@ -5,6 +5,7 @@
 
   .banner_main {
     background-image: none;
+    height: 110vh;
   }
 
   .build_box{
@@ -38,6 +39,7 @@
   }
   .banner_main {
     background-image: none;
+
   }
   .build_box{
     text-align: center;

@@ -26,7 +26,7 @@
 }
 
 .dropdown-black{
-  background-color: rgba(19, 17, 18, 0.800);
+  background-color: var(--dark-color);
   color: var(--light-color);
 }
 
@@ -42,7 +42,6 @@
 
 .dropdown:hover>.dropdown-menu {
   display: block;
-  color: var(--tertiary-color);
 }
 
 .dropdown-item{
@@ -64,10 +63,10 @@
 }
 
 .banner_main {
-  height: 90vh;
-  background-image: url(../../../../assets/undraw_web_devices_ad58.svg);
-  background-position: 48vw center;
-  background-size: 110vh;
+  height: 100vh;
+  background-image: url(../../../../assets/undraw_browsing_urt9.svg);
+  background-position: 55vw center;
+  background-size: 82vh;
   background-repeat: no-repeat;
 }
 
@@ -93,12 +92,11 @@
   line-height: 90px;
   padding-bottom: 20px;
   display: block;
-  text-shadow: 2px 2px 24px #fff;
 }
 
 .build_box p {
   color: var(--light-color);
-  font-size: 18px;
+  font-size: 20px;
   line-height: 30px;
   font-weight: normal;
   margin-bottom: 55px;
@@ -113,12 +111,12 @@
   font-family: 'Cabin', sans-serif;
   font-weight: 600;
   color: var(--light-color);
-  box-shadow: 5px 10px 50px var(--primary-color);
+  /* box-shadow: 5px 10px 50px var(--primary-color); */
 }
 
 .build_box .btn-budget:hover {
   background: var(--tertiary-color);
-  box-shadow: 5px 10px 50px var(--tertiary-color);
+  box-shadow: 1px 2px 2px var(--tertiary-color);
 }
 
 .social-icon{

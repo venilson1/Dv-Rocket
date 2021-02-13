@@ -9,21 +9,22 @@
 
 :root{
   --primary-color: #08091c ;
-  --secondary-color: #4a2a5c;
-  --tertiary-color: #FE31FD;
+  --secondary-color: #2D507A;
+  --tertiary-color: #465D7A;
   --light-color:#D6F6DD;
-  --dark-color:#020002;
-  --shadow-color:#FFBFB7;
+  --dark-color:#000000bf;
+  --shadow-color:#2E2516;
 }
 
-/* .clear-code:root{
-  --primary-color: #08091c;
+
+/* --primary-color: #08091c ;
   --secondary-color: #4a2a5c;
-  --tertiary-color: #FE31FD;
+  --tertiary-color: #8850a5;
   --light-color:#D6F6DD;
   --dark-color:#020002;
-  --shadow-color:#FFBFB7;
-} */
+  --shadow-color:#FFBFB7; */
+
+
 
 body{
   background-color: var(--primary-color);
@@ -69,12 +70,12 @@ e 10px de altura para a barra horizontal */
   width:2px;
   height: 2px;
   }
-   
+
   /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
   ::-webkit-scrollbar-track {
   background:#333;
   }
-   
+
   /* aqui é a alça da barra, que demonstra a altura que você está na página
   estou colocando uma cor azul clara nela*/
   ::-webkit-scrollbar-thumb {
