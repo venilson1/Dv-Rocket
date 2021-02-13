@@ -2,14 +2,15 @@
   background-color: #020002;
 }
 
-/* .footer-top{
-
-} */
-
 .align-center{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.logofooter img{
+  position: relative;
+  right: -2vw;
 }
 
 
@@ -35,6 +36,8 @@
   text-shadow: 1px 1px 20px #FE31FD;
 }
 
+
+
 .social-icon{
   display: flex;
   align-items: center;
@@ -58,14 +61,19 @@ i:hover{
   color: #D6F6DD;
 }
 
-.footer-bottom a{
-  padding: 2vh;
-  color: #D6F6DD;
-  text-decoration: none;
-  font-weight: bold;
-  text-shadow: 2px 2px 20px #D6F6DD;
-}
-
 .weabout{
   color: #D6F6DD;
 }
+
+.weabout p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.footer-bottom a{
+  color: #D6F6DD;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+

@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 *, *::after, *::before {
   box-sizing: border-box;
@@ -9,8 +10,8 @@
 
 :root{
   --primary-color: #08091c ;
-  --secondary-color: #2D507A;
-  --tertiary-color: #465D7A;
+  --secondary-color: #9D3BE1;
+  --tertiary-color: #ac65df;
   --light-color:#D6F6DD;
   --dark-color:#000000bf;
   --shadow-color:#2E2516;

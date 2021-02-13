@@ -1,7 +1,6 @@
 .logo img {
-  height: 64px;
-  position: absolute;
-  top: 0;
+  height: 38px;
+
 }
 
 .navigation {
@@ -98,6 +97,7 @@
   color: var(--light-color);
   font-size: 20px;
   line-height: 30px;
+  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   margin-bottom: 55px;
 }
