@@ -1,0 +1,17 @@
+@media (max-width: 600px) {
+
+  .boxeservices_main{
+    padding: 8vh 0;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box{
+    width: 280px;
+    height: 280px;
+    margin: 16px 0;
+  }
+}

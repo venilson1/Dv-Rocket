@@ -9,13 +9,13 @@
 }
 
 :root{
-  --primary-color: #08091c ;
+  --primary-color: #08091c;
   --secondary-color: #9D3BE1;
   --tertiary-color: #ac65df;
   --light-color:#D6F6DD;
   --dark-color:#000000bf;
-  --shadow-primary-color:#FE31FD;
-  --shadow-secondary-color:#FFBFB7;
+  --shadow-primary-color:#202136;
+  --shadow-secondary-color:#3E4069;
 }
 
 body{

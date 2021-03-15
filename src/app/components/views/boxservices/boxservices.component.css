@@ -1,0 +1,23 @@
+.boxeservices_main{
+  display: flex;
+  align-items: center;
+  padding: 24vh 0;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box{
+  background-color: var(--shadow-primary-color);
+  width: 300px;
+  height: 300px;
+  border-radius: 8%;
+  margin: 0 25px;
+}
+
+.box:hover{
+  background-color: var(--shadow-secondary-color);
+}
