@@ -10,5 +10,4 @@ Execute `ng serve -o` para abrir o sevidor na URL  `http://localhost:4200/`. O a
 
 Execute `ng build` para finalizar o projeto. Serão armazenados na pasta `dist /`. Use o sinalizador `--prod` para uma construção de produção.
 
-![Dv Rocket _ WebSites e mais 2 páginas - Pessoal — Microsoft_ Edge 2021-02-11 20-04-34](https://user-images.githubusercontent.com/57969262/107710937-d1313a00-6ca5-11eb-9b29-e325f7c4c77c.gif)
-
+link do projeto: https://dv-rocket.vercel.app/
