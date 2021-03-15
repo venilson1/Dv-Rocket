@@ -1,0 +1,15 @@
+.boxes_main{
+  height: 80vh;
+  
+}
+
+.boxes{
+  background-color: var(--tertiary-color);
+  height: 300px;
+  width: 300px;
+  margin:  0 25px;
+  border-radius: 6%;
+}
+
+
+

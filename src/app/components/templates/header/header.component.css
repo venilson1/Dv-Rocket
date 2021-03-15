@@ -1,6 +1,9 @@
+nav{
+  padding: 4vh 0;
+}
 .logo img {
-  height: 38px;
-
+  height: 32px;
+  margin-left: 4vw;
 }
 
 .navigation {
@@ -12,7 +15,7 @@
 }
 
 .bg-black {
-  background: var(--dark-color);
+  background: var(--primary-color);
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link {
@@ -35,7 +38,7 @@
 }
 
 .dropdown-black button:hover{
-  color: var(--shadow-primary-color);
+  color: var(--tertiary-color);
   border: none;
 }
 
@@ -56,74 +59,10 @@
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link:hover{
-  color: var(--shadow-primary-color);
-  transform:scale(1.1);
+  color: var(--tertiary-color);
+  transform:scale(1.0);
   transition-duration: 0.1s;
 }
-
-.banner_main {
-  height: 100vh;
-  background-image: url(../../../../assets/undraw_browsing_urt9.svg);
-  background-position: 55vw center;
-  background-size: 82vh;
-  background-repeat: no-repeat;
-}
-
-.build_box {
-  text-align: left;
-  padding-top: 8%;
-  padding-left: 8%;
-  padding: 10px;
-  font-family: 'Cabin', sans-serif;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  position: absolute;
-  top: 8vh;
-  width: 50vw;
-  left: 4vw;
-}
-
-.build_box h1 {
-  font-size: 5rem;
-  font-weight: bold;
-  color: var(--light-color);
-  line-height: 90px;
-  padding-bottom: 20px;
-  display: block;
-}
-
-.build_box p {
-  color: var(--light-color);
-  font-size: 20px;
-  line-height: 30px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-  margin-bottom: 55px;
-}
-
-.build_box .btn-budget{
-  background-color: var(--secondary-color);
-  font-size: 20px;
-  padding: 16px ;
-  text-transform: uppercase;
-  max-width: 278px;
-  font-family: 'Cabin', sans-serif;
-  font-weight: 600;
-  color: var(--light-color);
-  /* box-shadow: 5px 10px 50px var(--primary-color); */
-}
-
-.build_box .btn-budget:hover {
-  background: var(--tertiary-color);
-  box-shadow: 1px 2px 2px var(--tertiary-color);
-}
-
-.social-icon{
-  display: flex;
-  align-items: center;
-}
-
 
 .social-icon i{
   color: var(--light-color);
@@ -134,14 +73,7 @@
   cursor: pointer;
 }
 
-i:hover{
-  color: var(--tertiary-color);
-  transform:scale(2.0);
-  transition-duration: 0.5s;
-}
-
-.btn-grop a:nth-child(2){
-  margin-left: 1vw;
-  background-color: transparent;
-  border: 1px solid var(--secondary-color);
+.social-icon{
+  display: flex;
+  align-items: center;
 }
