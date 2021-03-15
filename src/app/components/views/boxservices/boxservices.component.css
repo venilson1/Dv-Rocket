@@ -22,3 +22,40 @@
   background-color: var(--shadow-secondary-color);
   transition-duration: 0.5s;
 }
+
+.boxcircle{
+  height: 128px;
+  width: 128px;
+  
+  position: relative;
+  top: -64px;
+  margin: 0 auto;
+
+  background-color: var(--shadow-primary-color);
+
+  border-radius: 50%;
+  border: 2px solid var(--secondary-color);
+
+  
+  background-repeat: no-repeat;
+  
+}
+
+
+.box .boxcircle:nth-child(1){
+  background-image: url(../../../../assets/clipboard.svg);
+  background-size: 14vh;
+  background-position: 44% 40% ;
+}
+
+.box:nth-child(2) .boxcircle:nth-child(1){
+  background-image: url(../../../../assets/web-design.svg);
+  background-size: 10vh;
+  background-position: 50% 50%;
+}
+
+.box:nth-child(3) .boxcircle:nth-child(1){
+  background-image: url(../../../../assets/programming.svg);
+  background-size: 14vh;
+  background-position: 50% 50%;
+}
