@@ -59,3 +59,38 @@
   background-size: 14vh;
   background-position: 50% 50%;
 }
+
+#content{
+  display: flex;
+  justify-content: space-around;
+  width: 75vw;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.box-content{
+  height: 10vh;
+  border-radius: 10px 10px 0 0 ;
+  border-bottom: 4px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.f-grow1{
+  flex-grow: 1;
+}
+
+.f-grow2{
+  flex-grow: 2;
+}
+
+.f-grow3{
+  flex-grow: 3;
+}
+
+.f-grow4{
+  flex-grow: 1;
+}
