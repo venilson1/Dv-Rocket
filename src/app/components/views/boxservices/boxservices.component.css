@@ -20,4 +20,5 @@
 
 .box:hover{
   background-color: var(--shadow-secondary-color);
+  transition-duration: 0.5s;
 }
