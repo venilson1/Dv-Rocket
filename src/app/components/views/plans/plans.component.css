@@ -16,6 +16,11 @@
   height: 500px;
   border-radius: 2%;
   margin: 0 0.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  color: var(--light-color);
 }
 
 .plans:hover{
@@ -27,10 +32,54 @@
 
 .header-card{
   height: 14vh;
+  background-size: 10vh;
+  background-repeat: no-repeat;
+  background-position: 14vw center;
+  background-color: #ff2e2e;
+}
+
+.header-card p {
+  color: var(--light-color);
+  position: relative;
+  font-size: 4vh;
+  font-weight: 600;
+  width: 14vw;
+  padding: 10px;
+  line-height: 30px;
+}
+
+.plans:nth-child(1) .header-card{
+  background-image: url(../../../../assets/webpage.svg);
+}
+
+.plans:nth-child(2) .header-card{
+  background-image: url(../../../../assets/ecommerce.svg);
+}
+
+.plans:nth-child(3) .header-card{
+  background-image: url(../../../../assets/radio-antenna.svg);
+}
+
+.plans:nth-child(4) .header-card{
+  background-image: url(../../../../assets/gears.svg);
+}
+
+.card-subtitle{
+  width: 100%;
+  color: var(--light-color);
+  padding: 4vh 4vh 0 4vh;
 }
 
 .card{
-  padding: 4vh;
+  padding: 0 4vh;
   background-color: transparent;
   color: var(--light-color);
+  line-height: 34px;
+}
+
+
+
+.box-button{
+  margin: 0 auto;
+  padding-bottom: 24px;
 }

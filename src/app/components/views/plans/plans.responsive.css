@@ -15,4 +15,8 @@
   .plans{
     margin-bottom: 8vh;
   }
+
+  .header-card{
+    background-position: 64vw center;
+  }
 }

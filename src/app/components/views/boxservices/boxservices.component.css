@@ -42,7 +42,7 @@
 }
 
 
-.box .boxcircle:nth-child(1){
+.box:nth-child(1) .boxcircle:nth-child(1){
   background-image: url(../../../../assets/clipboard.svg);
   background-size: 14vh;
   background-position: 44% 40% ;
