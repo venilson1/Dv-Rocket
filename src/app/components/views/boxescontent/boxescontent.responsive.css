@@ -3,7 +3,7 @@
   .boxescontent_main{
     display: flex;
     align-items: center;
-    padding: 24vh 0;
+    /* padding: 24vh 0; */
   }
 
   .container{
