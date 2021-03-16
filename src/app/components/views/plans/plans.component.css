@@ -1,7 +1,7 @@
 .plans_main{
   display: flex;
   align-items: center;
-  padding: 24vh;
+  padding: 0 0 32vh 0;
 }
 
 .container{
@@ -11,7 +11,7 @@
 }
 
 .plans{
-  background-color: var(--shadow-secondary-color);
+  background-color: var(--shadow-primary-color);
   width: 300px;
   height: 500px;
   border-radius: 2%;
@@ -23,4 +23,14 @@
   height: 500px;
   transform:scale(1.1);
   transition-duration: 0.2s;
+}
+
+.header-card{
+  height: 14vh;
+}
+
+.card{
+  padding: 4vh;
+  background-color: transparent;
+  color: var(--light-color);
 }

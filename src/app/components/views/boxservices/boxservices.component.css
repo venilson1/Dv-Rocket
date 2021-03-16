@@ -1,7 +1,7 @@
 .boxeservices_main{
   display: flex;
   align-items: center;
-  padding: 12vh 0;
+  padding: 32vh 0;
 }
 
 .container{
@@ -59,36 +59,6 @@
   background-size: 14vh;
   background-position: 50% 50%;
 }
-
-.boxescontent_main{
-  display: flex;
-  align-items: center;
-  padding: 12vh 0;
-}
-
-
-
-#content{
-  display: flex;
-  justify-content: space-around;
-  width: 75vw;
-  margin: 0 auto;
-  gap: 20px;
-}
-
-.box-content{
-  height: 10vh;
-  border-radius: 10px 10px 0 0 ;
-  border-bottom: 4px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  font-weight: bold;
-}
-
-
-
 
 .card{
   position: relative;

@@ -1,7 +1,7 @@
 .boxescontent_main{
   display: flex;
   align-items: center;
-  padding: 12vh 0;
+  padding: 0 0 32vh 0;
 }
 
 .container{
