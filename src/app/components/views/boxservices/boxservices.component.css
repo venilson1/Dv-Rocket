@@ -1,7 +1,7 @@
 .boxeservices_main{
   display: flex;
   align-items: center;
-  padding: 24vh 0;
+  padding: 12vh 0;
 }
 
 .container{
@@ -60,6 +60,12 @@
   background-position: 50% 50%;
 }
 
+.boxescontent_main{
+  display: flex;
+  align-items: center;
+  padding: 12vh 0;
+}
+
 
 
 #content{
@@ -78,20 +84,11 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-weight: bold;
 }
 
 
-.f-grow1{
-  width: 10vw;
-}
 
-.f-grow2{
-  width: 30vw;
-}
-
-.f-grow3{
-  width: 60vw;
-}
 
 .card{
   position: relative;
