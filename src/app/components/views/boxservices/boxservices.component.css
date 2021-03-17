@@ -8,6 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .box{
@@ -66,4 +67,9 @@
   background-color: transparent;
   color: var(--light-color);
   border: none;
+}
+
+.card-text{
+  text-align: justify;
+  margin: 0 24px;
 }

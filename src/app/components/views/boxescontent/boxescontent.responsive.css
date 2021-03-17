@@ -6,6 +6,11 @@
     /* padding: 24vh 0; */
   }
 
+  .box-content{
+    height: 10vh;
+    border-radius: 10px 10px 0 0 ;
+  }
+
   .container{
     /* -webkit-flex-wrap: wrap;
     flex-wrap: wrap; */

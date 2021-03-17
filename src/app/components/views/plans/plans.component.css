@@ -81,6 +81,13 @@
 
 
 .box-button{
-  margin: 0 auto;
-  padding-bottom: 24px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 2vh;
+}
+
+.btn{
+  width: 60%;
 }
