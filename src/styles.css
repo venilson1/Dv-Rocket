@@ -73,3 +73,21 @@ e 10px de altura para a barra horizontal */
   ::-webkit-scrollbar-thumb {
   background: var(--tertiary-color);
   }
+
+
+  /* ==== chatbot === */
+
+  df-messenger {
+    --df-messenger-button-titlebar-color: var(--shadow-primary-color);
+    --df-messenger-bot-message: var(--primary-color);
+    
+    --df-messenger-font-color: var(--light-color);
+    --df-messenger-user-message: var(--secondary-color);
+    
+    --df-messenger-chat-background-color: var(--shadow-primary-color);
+    --df-messenger-input-box-color: var(--shadow-primary-color);
+
+    --df-messenger-input-font-color: var(--light-color);
+    --df-messenger-input-placeholder-font-color: var(--light-color);
+    --df-messenger-send-icon: lightgreen;
+  }

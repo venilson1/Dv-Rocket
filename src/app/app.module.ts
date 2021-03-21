@@ -10,6 +10,7 @@ import { BoxservicesComponent } from './components/views/boxservices/boxservices
 import { PortifolioComponent } from './components/views/portifolio/portifolio.component';
 import { PlansComponent } from './components/views/plans/plans.component';
 import { BoxescontentComponent } from './components/views/boxescontent/boxescontent.component';
+import { ModalComponent } from './components/templates/modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { BoxescontentComponent } from './components/views/boxescontent/boxescont
     PortifolioComponent,
     PlansComponent,
     BoxescontentComponent,
+    ModalComponent,
   ],
   imports: [
     BrowserModule,
