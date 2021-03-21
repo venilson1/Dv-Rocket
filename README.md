@@ -1,4 +1,4 @@
-# DevRocket
+# Lunarme
 
 Este Projeto é criado com o  [Angular CLI](https://github.com/angular/angular-cli) versão 11.1.4, [NodeJS](https://nodejs.org/en/) versão 14.15.4.
 
